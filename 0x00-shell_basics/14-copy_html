@@ -1,4 +1,2 @@
 #!/bin/bash
-cp -un *file_0.html ../
-cp -un *file_1.html ../
-cp -un *file_2.html ../
+cp -un*file_0.html ../
