@@ -1,2 +1,2 @@
 #!/bin/bash
-betty .hR betty:alxschool.
+chown.hR betty:alxschool.
