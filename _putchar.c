@@ -4,9 +4,11 @@
 /**
  * _putchar -write the chatcter c to stdout
  * @c:the charcter to print
+ *
  * Return =on success 1
+ * on error,-1 is returned, and errno is set appropiriately.
  */
-int _puchar (char c)
+int _putchar(char c)
 {
-	return(write( 1,@ac, 1));
+	return (write(1, &c, 1));
 }
